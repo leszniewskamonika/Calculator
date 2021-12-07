@@ -7,13 +7,17 @@ android {
     compileSdk 31
 
     defaultConfig {
+        configurations.all {
+            resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
+        }
         applicationId "com.example.calculator"
-        minSdk 21
+        minSdk 29
         targetSdk 31
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        targetSdkVersion 31
     }
 
     buildTypes {
@@ -33,7 +37,7 @@ android {
 
 dependencies {
     //Kotlin
-    implementation 'androidx.core:core-ktx:1.7.0'
+    //implementation 'androidx.core:core-ktx:1.7.0'
 
     //Android framework
     implementation 'androidx.appcompat:appcompat:1.4.0'
