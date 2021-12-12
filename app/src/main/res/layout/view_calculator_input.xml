@@ -17,8 +17,7 @@
         android:layout_height="@dimen/sizeIcon"
         android:layout_centerInParent="true"
         tools:ignore="ContentDescription"
-        tools:src="@drawable/ic_trash"
-        app:tint="@color/colorImage" />
+        tools:src="@drawable/ic_trash" />
 
     <TextView
         android:id="@+id/input_element_text"
