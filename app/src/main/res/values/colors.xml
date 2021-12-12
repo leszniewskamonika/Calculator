@@ -13,9 +13,12 @@
     <color name="colorPrimaryDark">#005748</color>
     <color name="colorAccent">#e08e3a</color>
 
+    <color name="colorTitleBackground">#D3D3D3</color>
     <color name="colorCalcualteBackground">#FFFF</color>
 
     <color name="colorText">#000000</color>
     <color name="colorTextLight">#A0A0A0A0</color>
+
+    <color name="colorImage">@color/colorAccent</color>
 
 </resources>
