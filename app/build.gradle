@@ -43,7 +43,7 @@ android {
 
 dependencies {
     //Kotlin
-    //implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.core:core-ktx:1.7.0'
 
 
     //Android framework

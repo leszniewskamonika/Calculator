@@ -35,7 +35,8 @@
         android:layout_height="match_parent"
         android:background="?selectableItemBackground"
         android:clickable="true"
-        android:focusable="true" />
+        android:focusable="true"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 
 </merge>
